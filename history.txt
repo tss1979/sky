@@ -1,0 +1,3 @@
+Sergey: 30
+Weer: 0
+wtwye: 10
