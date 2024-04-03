@@ -18,7 +18,6 @@ def main():
         profession = utils.get_profession_by_title(title)
         if profession:
             student_info = utils.check_fitness(student, profession)
-            print(student_info.get('fit_percent'))
             fit = student_info.get('fit_percent') if student_info.get('fit_percent') else 0
             has = student_info.get('has') if student_info.get('has') else ['ничего из того что нужно']
             lacks = student_info.get('lacks') if student_info.get('lacks') else ['? Да все он знает']
