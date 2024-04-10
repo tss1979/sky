@@ -1,21 +1,24 @@
 questions = [{
-    "q": "How many days do we have in a week?",
-    "d": "1",
-    "a": "7"
-}, {
-    "q": "How many letters are there in the English alphabet?",
-    "d": "3",
-    "a": "26"
-}, {
-    "q": "How many sides are there in a triangle?",
-    "d": "2",
-    "a": "3"
-}, {
-    "q": "How many years are there in one Millennium?",
-    "d": "2",
-    "a": "1000"
-}, {
-    "q": "How many sides does hexagon have?",
-    "d": "4",
-    "a": "6"
-}]
+    "word": "питон",
+     "subwords":  [
+         "пони", "тон", "ион", "опт", "пот", "тип", "топ", "пион", "понт"
+     ]},
+    {
+      "word": "набор",
+      "subwords":  [
+          "бар", "бон", "бор", "раб", "бра", "боа", "нора", "роба", "барон"
+     ]},
+    {
+			"word": "строка",
+			"subwords": [
+         "акр", "акт", "кот", "рак", "орк", "оса", "сок", "ток", "тор", "кора",
+         "коса", "сота", "торс", "роса", "скат", "сор", "рок", "рост"
+     ]
+    },
+    {
+			"word": "клюшка",
+			"subwords": [
+         "как", "кал", "лак", "люк", "юла", "каюк", "шлак", "юшка", "клюка"
+     ]
+}
+]
